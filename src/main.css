@@ -1,0 +1,46 @@
+@import "vazirmatn/Vazirmatn-font-face.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Vazirmatn, sans-serif;
+}
+
+.featured__badge {
+
+}
+
+.price-tag {
+    .price-tag__struck-price {
+        &::after {
+            content: '';
+            height: 2px;
+            display: block;
+            width: 100%;
+            position: absolute;
+            background-color: theme('colors.white');
+            transform: rotate(-15deg);
+            right: 0;
+            top: 1.5rem
+        }
+    }
+}
+
+.deal {
+    .deal-countdown__timer-item {
+        position: relative;
+
+        &::after {
+            content: ":";
+            position: absolute;
+            right: -10px;
+            top: 0;
+        }
+
+        &:last-child::after {
+            content: unset;
+        }
+    }
+}
