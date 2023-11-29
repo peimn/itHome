@@ -650,16 +650,12 @@ video {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.right-2 {
-  right: 0.5rem;
-}
-
 .right-10 {
   right: 2.5rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .my-5 {
@@ -731,11 +727,6 @@ video {
 
 .rounded-xs {
   border-radius: 5px;
-}
-
-.rounded-b-lg {
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
 }
 
 .rounded-b-md {
