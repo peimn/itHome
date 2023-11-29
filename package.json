@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/style.css --watch",
-    "build": "npx tailwindcss -i ./src/main.css -o ./dist/style.css"
+    "dev": "npx tailwindcss -i ./src/main.css -o src/style.css --watch",
+    "build": "npx tailwindcss -i ./src/main.css -o src/style.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
